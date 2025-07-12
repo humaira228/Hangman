@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<VBox xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="application.Controller"
+      alignment="TOP_CENTER" spacing="20">
+
+    <padding>
+        <Insets top="20" bottom="20" left="20" right="20"/>
+    </padding>
+
+    <Text fx:id="wordD" style="-fx-font-size: 28px;" />
+    <Text fx:id="hint" style="-fx-font-size: 16px;" />
+    
+
+  
+    <ImageView fx:id="hangmanImage" fitHeight="200" preserveRatio="true" />
+    <Text fx:id="wrongGuessCount" style="-fx-font-size: 16px;" />
+
+ 
+    <GridPane fx:id="letterGrid" hgap="7" vgap="7" alignment="CENTER">
+        
+    </GridPane>
+
+    <Button text="Reset Game" onAction="#resetGame"/>
+
+</VBox>

@@ -1,0 +1,16 @@
+# Ignore Eclipse build output
+bin/
+
+# Ignore Eclipse project settings
+.settings/
+
+# Ignore Eclipse project metadata files
+.classpath
+.project
+
+# Ignore JavaFX build folder if not needed
+build.fxbuild/
+
+# Ignore other common files
+*.log
+*.tmp
