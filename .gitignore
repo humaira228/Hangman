@@ -8,9 +8,9 @@ bin/
 .classpath
 .project
 
-# Ignore JavaFX build folder if not needed
+# Ignore JavaFX build folder
 build.fxbuild/
 
-# Ignore other common files
+# Ignore other files
 *.log
 *.tmp
